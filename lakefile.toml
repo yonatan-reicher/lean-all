@@ -1,10 +1,6 @@
 name = "lean-all"
 version = "0.1.0"
-defaultTargets = ["lean-all"]
+defaultTargets = ["LeanAll"]
 
 [[lean_lib]]
 name = "LeanAll"
-
-[[lean_exe]]
-name = "lean-all"
-root = "Main"
